@@ -8,14 +8,14 @@ function Transpor(A){
     }
     console.log(string);
 
-    let matrizTranspostaString = '';
+    let matrizTransposta = '';
     for(let j = 0; j < A[0].length; j++){
         for(let i = 0; i < A.length; i++){
-            matrizTranspostaString += A[i][j] + ' ';
+            matrizTransposta += A[i][j] + ' ';
         }
-        matrizTranspostaString += '\n';
+        matrizTransposta += '\n';
     }
-    console.log(matrizTranspostaString);
+    console.log(matrizTransposta);
 
 }
 
